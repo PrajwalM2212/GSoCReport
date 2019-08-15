@@ -1,348 +1,144 @@
 ---
 layout: report
-student: Boxuan Li 
+student: PRAJWAL M
 organisation: coala
 organisation_link : https://coala.io
-project: Meta-review
-project_link: https://summerofcode.withgoogle.com/projects/#5188493739819008
-tarball: https://github.com/li-boxuan/GSoCReport/raw/master/li-boxuan_coala.tar.gz
+project: Support TOML as a configuration format
+project_link: https://summerofcode.withgoogle.com/projects/#6388671438127104
+tarball: https://github.com/PrajwalM2212/GSoCReport/raw/master/PRAJWAL-M_coala.tar.gz
+sha256sum: 4cb9a32d50fc664fbaf8b51964983e52381391be151d3c10089951b6c15019af
 mentors: >
- [Hemang Kumar](https://github.com/hemangsk/) & [Surya Widi](https://github.com/blazeu) & [Andrew Dassonville](https://github.com/andrewda)
+ [Vaibhav Rai](https://github.com/RaiVaibhav) & [Alexandru-Sorin Maxim](https://github.com/Nosferatul) & [Kilari Teja](https://github.com/ksdme) & [Marcos Gómez](https://github.com/margobra8)
 phase:
- - Bonding : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/14
- - Phase 1 : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/15
- - Phase 2 : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/16
- - Phase 3 : https://gitlab.com/coala/GSoC/GSoC-2018/milestones/17
+ - Bonding : https://gitlab.com/coala/GSoC/gsoc-2019/-/milestones/32
+ - Phase 1 : https://gitlab.com/coala/GSoC/gsoc-2019/-/milestones/33
+ - Phase 2 : https://gitlab.com/coala/GSoC/gsoc-2019/-/milestones/34
+ - Phase 3 : https://gitlab.com/coala/GSoC/gsoc-2019/-/milestones/35
 bio: >
- I'm a final year student (expected graduation date: May 2019) of Computer Science at The University of Hong Kong. I participated in GSoC and worked with [coala](http://coala.io) to implement a meta-review system, which collects and tracks GitHub reactions used by coala community to generate meaningful analysis. I also improved usability of [gh-board](http://github.com/coala/gh-board), a serverless kanban board, fixing some issues and extending it to track reviews & meta-reviews.
+ I'm a second year student of Computer Science. I participated in GSoC and worked with [coala](http://coala.io) to support TOML as a configuration format. I have worked on the coala repo to implement this functionality. I have also extended this feature to coala-quickstart repo. Apart from this, I have created a set of bears that lints TOML files. I have also created a tool for automatically generating configuration files based on style guides. In all I have worked to make the configuration system easier to use. 
 social:
  - GitHub:
-   - username: li-boxuan
-   - link: https://github.com/li-boxuan
+   - username: PrajwalM2212
+   - link: https://github.com/PrajwalM2212
  - GitLab:
-   - username: li-boxuan
-   - link: https://gitlab.com/li-boxuan
+   - username: prajwalm2212
+   - link: https://gitlab.com/prajwalm2212
  - Gitter:
-   - username: li-boxuan
-   - link: https://gitter.im/li-boxuan
+   - username: PrajwalM2212
+   - link: https://gitter.im/PrajwalM2212
  - LinkedIn:
-   - username: Li Boxuan 
-   - link: https://www.linkedin.com/in/li-boxuan-427510104
-email: liboxuanhk@gmail.com
-blog: http://li-boxuan.github.io/
+   - username: Prajwal M 
+   - link: https://www.linkedin.com/in/prajwalm/
+email: prajwalmmath@gmail.com
+blog: https://medium.com/@bhavaneuler
 activity:
  - 0:
-   - repo: community
-   - link: https://github.com/coala/community/commit/2929576df9c20144aad9db8a5e326c1853375158
+   - repo: cEPs
+   - link: https://github.com/coala/cEPs/pull/180
    - details: > 
-      Set up meta_review app
+      coala enhancement proposal for support toml project
  - 1:
-   - repo: community
-   - link: https://github.com/coala/community/commit/aae015127c96b85a1cd9188199a6e4a46693d9f7
+   - repo: coala
+   - link: https://github.com/coala/coala/pull/6027
    - details: >
-      Change meta-review models
+      TomlConfParser and loading system for running toml files
 
  - 2:
-   - repo: community
-   - link: https://github.com/coala/community/commit/78e1e3a542a1654982f55cde4e08bbf97ec81c3c
+   - repo: coala
+   - link: https://github.com/coala/coala/pull/6032
    - details: >
-      Implement meta-review scoring & ranking system
+      Langauge definition for TOML
 
  - 3:
-   - repo: projects
-   - link: https://github.com/coala/projects/commit/6c83d70a8559d1368fba1d80ad412b31ada7dad3
+   - repo: coala
+   - link: https://github.com/coala/coala/pull/6043
    - details: >
-      [Bonding Period Work] meta_review.md: Add meta review project
+      TomlConfWriter for saving functionality.
+      ConfigConverter for converting toml to .coafile and vice versa
 
  - 4:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/16f8e84036a9ba47d434c60400da021d90a1a740
+   - repo: documentation
+   - link: https://github.com/coala/documentation/commit/7ce97cd390826d21a9459a091093f47c5711578b
    - details: >
-      [Bonding Period Work] fetch-issues.js: Build custom generator
+      Documentation on writing configuration files in TOML
 
  - 5:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/46f1ad5ce83d5d72aa95ea00703b92c2fc38b2dc
+   - repo: coala-quickstart
+   - link: https://github.com/coala/coala-quickstart/pull/335
    - details: >
-      [Bonding Period Work] Remove TODOs in components code
+      Support coala-quickstart to generate config files in TOML
 
  - 6:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/60b8a10f123d2bec71c22c31f3e281ad9609fa07
+   - repo: coala-antlr
+   - link: https://gitlab.com/coala/bears/coala-antlr/merge_requests/46
    - details: >
-      [Bonding Period Work] Modernize existing React component code
+      A set of bears for linting TOML files
 
  - 7:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/e452f41ddda6abe149442d5240675b3ae3333e6a
+   - repo: toml
+   - link: https://github.com/uiri/toml/commit/7963467bc3ac9c9834d33d303efb4fdb94858b38
    - details: >
-      nav.jsx: Fix broken link on header
+      Support for toml library to store comments
 
  - 8:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/77830f4146de9d4d29b539740423a0ca43ee219f
+   - repo: coala
+   - link: https://github.com/coala/coala/pull/6049
    - details: >
-      Pre-fetch pull request review comments & reactions
+      ConfigGenerator for generating coafiles
 
  - 9:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/2a7338b3edff6d1c9f5b019ea07c28640996267a
+   - repo: coala-mobans
+   - link: https://gitlab.com/coala/mobans/merge_requests/136
    - details: >
-      package.json: Add linting on script & test
+      coala-setup.py.jj2: Add system_coafile.toml     
 
  - 10:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d3c6debe198b369901166be791a9ae53f23b26a0
+   - repo: coala-styles
+   - link: https://github.com/PrajwalM2212/coala-styles
    - details: >
-      Get test suite working
-
+      Repository for style guide configurations
+      
  - 11:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/671f13de1999001e718df9ce5187d7abf278791d
+   - repo: documentation
+   - link: https://github.com/coala/documentation/pull/599
    - details: >
-      Set pre-fetch time limit for pull requests
-
- - 12:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/91fffbbce1713a1d56276122d51cb16c7079b626
-   - details: >
-      Fix Travis failure
-
- - 13:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/c33cc70bcab57a4ac13e4f352a255abc213dc874
-   - details: >
-      database.js: Fix `closed` filter bug
-
- - 14:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/a2957290794424c6b8a0162ab49694cd771c2445
-   - details: >
-      .travis.yml: Enable keep-history
-
- - 15:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/aca0d61832ffe1bac2b2c9d2615ea4219f68d3b6
-   - details: >
-      .travis.yml: Let moban task not deploy
-
- - 16:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/4b82e679b83339f500d686967d3b6b843f7e1d40
-   - details: >
-      run-test.sh: Verify files exist
-
- - 17:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/0f9f4a45bfdf341c5705d7543688adea7195c5cb
-   - details: >
-      Increase test timeout threshold
-
- - 18:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/34c2e6de21ed2933d8f19cca3b6dd177ce32c86f
-   - details: >
-      login-modal.jsx: Add exception for default api url
-
- - 19:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/828be376832687373b984df38ca71c1684651aa7
-   - details: >
-      Add `meta-review in need` column
-
- - 20:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/ac8b0709b0e82963fd3d6680b37005359225effc
-   - details: >
-      Display reactions of reviews
-
- - 21:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/892b87ff808ac188166c9500d1169b1590b8d791
-   - details: >
-      dashboard.jsx: Add environment REPOSITORIES
-
- - 22:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/e791bee60bf4af32aec889211d4de63d6418d7ed
-   - details: >
-      Setup GraphQL client
-
- - 23:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/5480420793979b9ae4b53117c6d5d757f12013bb
-   - details: >
-      Use new graphql client to sync issues
-
- - 24:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/93c842bca04298c8afc2d71d167efe04d432d11f
-   - details: >
-      dashboard.jsx: Load repos automatically after login
-
- - 25:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/9eae16877612d21f3ceed99ec23a097ec32e21b3
-   - details: >
-      Add review filters functionality
-
- - 26:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d32b25729ee1d9bc7972dce4a898a0bea9146098
-   - details: >
-      Refactor pre-fetching
-
- - 27:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/faf793a3679ab32cb4e42c8ac54f174695b6bebc
-   - details: >
-      github-graphql.js: Fix several issues
-
- - 28:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/59e9cba6ca38a8fb6396a0864ff43bf749f1d6ec
-   - details: >
-      Setup Jest configurations
-
- - 29:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/8a3c49befc2c3d2b68ed11c5f2e217cb177caf57
-   - details: >
-      reactions.jsx: Add snapshot test
-
- - 30:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/1f88cfa9c369f5b3f4bd7abafa6c15970196de80
-   - details: >
-      Add codecov
-
- - 31:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/3638063072aeea1925bab5f9565d7765bf8d4cf4
-   - details: >
-      Separate test logic
-
- - 32:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/10003d073c16c18da669b66f235c0e9abc1230f1
-   - details: >
-      netlify.toml: Verify pre-fetched files exist
-
- - 33:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d1a7ea3ea66c7af7a51a9717f67fc635fc35cf41
-   - details: >
-      Enhance meta-review UI
-
- - 34:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/b062087825f01c1169accb646f0eaf0d1f0e7cb8
-   - details: >
-      Add reaction mutation functionality
-
- - 35:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d4705c5332ecd8e4329f0b62f7df3c9312c35a01
-   - details: >
-      repo-kanban.jsx: Use withAuth wrapper
-
- - 36:
-   - repo: gh-board
-   - link: https://github.com/coala/gh-board/commit/d1a9bf25061800510cd9cf7d1c089900d2cbd1f1
-   - details: >
-      dashboard.jsx: Use withAuth wrapper
-
- - 37:
-   - repo: cEPs
-   - link: https://github.com/coala/cEPs/commit/e9f7587856e1c236d37e96f54a0cb4d72069776d
-   - details: >
-      cEP-0019.md: Meta-review system
-
- - 38:
-   - repo: coala
-   - link: https://github.com/coala/coala/commit/dc2cc6a82f72644da55f509f8d4a50ba8fa694ba
-   - details: >
-      Linter: Add option to remove 0 number
-
- - 39:
-   - repo: coala
-   - link: https://github.com/coala/coala/commit/dfa92b64435b86b10b9a725ee32267896450e565
-   - details: >
-      Meta-review.rst: Add meta-review docs
-
- - 40:
-   - repo: coala
-   - link: https://github.com/coala/coala/pull/5704
-   - details: >
-      Newcomers_Guide.rst: Add meta-review process (pending review)
-
- - 41:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/2f6f58b4afa0b139aa25062c3d3fcb27df3ea0d5
-   - details: >
-      PyLintBear: Fix column number convention
-
- - 42:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/1f3325519a72cb98669185149b03b11c1ec25f70
-   - details: >
-      CPPLintBear: Fix line number convention
-
- - 43:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/705f9db98d957cc9d27e675b1d58f369feb54255
-   - details: >
-      HAMLLintBear: Fix line number convention
-
- - 44:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/e5df6bcac33aa06bec70bf21217972620c34e888
-   - details: >
-      WriteGoodLintBear: Fix column number convention
-
- - 45:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/e445c04e28e95b7f21983e9e2dd770e81838aa69
-   - details: >
-      StylintBear: Fix column number convention
-
- - 46:
-   - repo: coala-bears
-   - link: https://github.com/coala/coala-bears/commit/401fa883ffbe21b78a8a4899160592a293f3d4cd
-   - details: >
-      CheckStyleBear: Fix offset convention
-
+      Documentation on using ConfigGenerator
 ---
 
-### Meta-review
+### Support TOML as a configuration format
 
 
 #### Work Done
 
-coala [community](https://github.com/coala/community) website now has a meta-review
-[ranking list](http://coala-community.netlify.com/meta-review/). coala
-gh-board [website](https://coala-gh-board.netlify.com/)
-now has a column displaying review comments that need to be meta-reviewed. I also
-fixed many issues around [gh-board](https://github.com/coala/gh-board) repo.
-Apart from all above, I do some other contributions to the community, including
-doing reviews, and fixing several issues around coala & coala-bears repo.
+1. coala can now run on configuration files written in TOML. The method to write
+configuration files has also been well documented.
+
+2. coala has the functionality to create TOML configuration files from sections.
+
+3. A tool to convert .coafile to TOML configuration file and vice versa has been created.
+
+4. coala-quickstart can now generate configuration files in TOML as well.
+
+5. A set of bears namely TomlExpressionBear, TomlArrayBear, TomlInlineTableBear
+and TomlIndentBear have been created that will take care of linting various
+aspects of a TOML file.
+
+6. A new tool has been created to allow users to quickly run coala without having to
+write their own configuration files. This tool will allow the user to generate
+config files based on style guides. To make this possible a repo containing
+config files for style guides for various languages has been created.
 
 #### Challenges
 
-Most things went smoothly. The biggest challenge for me was that I did not have serious
-frontend experience. Before I applied for this project, I had no frontend development
-knowledge at all, while two thirds of my project was about javascript and React.
-Luckily, org admin and all my mentors were very willing to help and review my work.
-coala community always do extremely careful reviews and expect high quality of code.
-It was hard work for me, but I did learn a lot at the same time.
+I faced a few challenges during my project. I had to create bears for TOML,
+but I had no clue of how to do that. For creating the bear I needed
+a good set of lexer and parser. I then found coala-antlr which uses antlr4
+for creating bears. I learnt how to use antlr4 during the project and finally
+developed the bears.
 
 #### Work to be done
 
-The ranking list on community website is very basic. It could be prettified and improved.
-As it is a ranking list, filtering, sorting & searching options could be added.
-The algorithm between that meta-review ranking system is basic: it uses naive iterative
-algorithm to calculate scores, which can be enhanced in the future.
-
-There are still many issues around with gh-board. A major improvement which can be done
-is GitLab support - it currently only supports GitHub.
+The ConfigGenerator currently supports only a few languages and style-guides.
+This can be improved by adding configuration files for different languages
+and style guides in the coala-styles repo.
 

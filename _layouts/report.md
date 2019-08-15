@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ page.student }} | Project Report </title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <link rel="stylesheet" href="resources/style.css">
@@ -19,7 +20,7 @@
         <br>
             <div class="row no-margin">
                 <div class="col m12">
-                    <h4 class="left light">Google Summer of Code 2018 Work Product Submission </h4>
+                    <h4 class="left light">Google Summer of Code 2019 Work Product Submission </h4>
                 </div>
                 <br>
             </div> 
@@ -82,6 +83,8 @@
                             <div class="center"><h5 class="light no-margin">Patches Tarball</h5></div>
                             <br>
                             <div class="center"><a href="{{ page.tarball }}">Download</a></div>
+                            <br>
+         
                         </div>
                     </div>
                 </div>
@@ -110,7 +113,7 @@
   
             </div>	
             <br>
-            <div class="no-margin">
+            <div class="no-margin" style="overflow-x:auto;">
                 <table class="padding-table">
                     <thead class="no-border">
                         <tr class="blue-grey-text text-lighten-2">
@@ -147,6 +150,7 @@
 
 
 		</div>
+		
 	</body>
 </html> 
 
