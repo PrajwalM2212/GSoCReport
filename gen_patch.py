@@ -11,7 +11,7 @@ patches = {
                       'Langauge-definition-for-TOML.patch'],
               '003': ['https://github.com/coala/coala/pull/6043.patch',
                       'TomlConfWriter-and-ConfigConverter.patch'],
-              '004': ['https://github.com/coala/coala/pull/6049',
+              '004': ['https://github.com/coala/coala/pull/6049.patch',
                       'ConfigGenerator-for-generating-coafiles.patch']
               },
     'coala-documentation': {

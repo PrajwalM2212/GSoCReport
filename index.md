@@ -15,7 +15,7 @@ phase:
  - Phase 2 : https://gitlab.com/coala/GSoC/gsoc-2019/-/milestones/34
  - Phase 3 : https://gitlab.com/coala/GSoC/gsoc-2019/-/milestones/35
 bio: >
- I'm a second year student of Computer Science. I participated in GSoC and worked with [coala](http://coala.io) to support TOML as a configuration format. I have worked on the coala repo to implement this functionality. I have also extended this feature to coala-quickstart repo. Apart from this, I have created a set of bears that lints TOML files. I have also created a tool for automatically generating configuration files based on style guides. In all I have worked to make the configuration system easier to use. 
+ I'm a second year student of Computer Science studying at Dr. Ambedkar Institute Of Technology, Bangalore. I participated in GSoC and worked with [coala](http://coala.io) to support TOML as a configuration format. I have worked on the coala repo to implement this functionality. I have also extended this feature to coala-quickstart repo. Apart from this, I have created a set of bears that lints TOML files. I have also created a tool for automatically generating configuration files based on style guides. In all I have worked to make the configuration system easier to use. 
 social:
  - GitHub:
    - username: PrajwalM2212
@@ -58,7 +58,7 @@ activity:
 
  - 4:
    - repo: documentation
-   - link: https://github.com/coala/documentation/commit/7ce97cd390826d21a9459a091093f47c5711578b
+   - link: https://github.com/coala/documentation/pull/598
    - details: >
       Documentation on writing configuration files in TOML
 
