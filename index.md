@@ -34,43 +34,43 @@ blog: https://medium.com/@bhavaneuler
 activity:
  - 0:
    - repo: cEPs
-   - link: https://github.com/coala/cEPs/pull/180
-   - details: > 
+   - link: https://github.com/coala/cEPs/pull/180/commits/1518c3a2f480080d0de64c779703292276982a42
+   - details: >
       coala enhancement proposal for support toml project
  - 1:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6027
+   - link: https://github.com/coala/coala/pull/6027/commits/66daa9ebf2fc444b37c3e94568f1abe26d0decfc
    - details: >
       TomlConfParser and loading system for running toml files
 
  - 2:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6032
+   - link: https://github.com/coala/coala/pull/6032/commits/b01598ffab4d680eebd4f2ed64e87ebe6cf14a77
    - details: >
       Langauge definition for TOML
 
  - 3:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6043
+   - link: https://github.com/coala/coala/pull/6043/commits/82211d7f2d9b345390c8ffa4fbd5eca5e6c0671a
    - details: >
       TomlConfWriter for saving functionality.
       ConfigConverter for converting toml to .coafile and vice versa
 
  - 4:
    - repo: documentation
-   - link: https://github.com/coala/documentation/pull/598
+   - link: https://github.com/coala/documentation/commit/7ce97cd390826d21a9459a091093f47c5711578b
    - details: >
       Documentation on writing configuration files in TOML
 
  - 5:
    - repo: coala-quickstart
-   - link: https://github.com/coala/coala-quickstart/pull/335
+   - link: https://github.com/coala/coala-quickstart/pull/335/commits/06ebf384650d888f83cad74d41d5b8331b4ac394
    - details: >
       Support coala-quickstart to generate config files in TOML
 
  - 6:
    - repo: coala-antlr
-   - link: https://gitlab.com/coala/bears/coala-antlr/merge_requests/46
+   - link: https://gitlab.com/coala/bears/coala-antlr/commit/7ebedc199ec5205fd58c1b61c23a885cc11db956?merge_request_iid=46
    - details: >
       A set of bears for linting TOML files
 
@@ -82,25 +82,25 @@ activity:
 
  - 8:
    - repo: coala
-   - link: https://github.com/coala/coala/pull/6049
+   - link: https://github.com/coala/coala/pull/6049/commits/f6db044006fcb487f6730d77551fe0db8b11b60c
    - details: >
       ConfigGenerator for generating coafiles
 
  - 9:
    - repo: coala-mobans
-   - link: https://gitlab.com/coala/mobans/merge_requests/136
+   - link: https://gitlab.com/coala/mobans/commit/431719a49f5c6e45a63272684bfda8d2bd915bb4?merge_request_iid=136
    - details: >
-      coala-setup.py.jj2: Add system_coafile.toml     
+      coala-setup.py.jj2: Add system_coafile.toml
 
  - 10:
    - repo: coala-styles
-   - link: https://github.com/PrajwalM2212/coala-styles
+   - link: https://github.com/PrajwalM2212/coala-styles/commit/069d088516be25dc2e6d093bb9fec014698b34f9
    - details: >
       Repository for style guide configurations
-      
+
  - 11:
    - repo: documentation
-   - link: https://github.com/coala/documentation/pull/599
+   - link: https://github.com/coala/documentation/pull/599/commits/14ba354de44333db5d84c3a6824966bd1725ae3a
    - details: >
       Documentation on using ConfigGenerator
 ---
